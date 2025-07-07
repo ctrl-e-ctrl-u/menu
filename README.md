@@ -19,6 +19,7 @@ A simple Python-based CLI menu to organize and run your network automation scrip
 
 - Python 3.6 or higher
 - (Optional) Install dependencies if your scripts require libraries like `netmiko`, `napalm`, etc.
+- Uncomment the " # subprocess.run(['python3', '/home/Network-team/scripts/backupScript.py'])" line and replace the repo with the repo where your scripts exist, example "/home/user/scripts"
 
 ----
 
