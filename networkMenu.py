@@ -2,11 +2,11 @@ import subprocess
 
 def backupScript():
     print("Simulating execution of backupScript.py script")
-    # subprocess.run(['python3', 'home/Network-team/scripts/backupScript.py'])
+    # subprocess.run(['python3', '/home/Network-team/scripts/backupScript.py'])
 
 def inventoryScript():
     print("Simulating execution of inventoryScript.py script")
-    # subprocess.run(['python3', 'home/Network-team/scripts/inventoryScript.py'])
+    # subprocess.run(['python3', '/home/Network-team/scripts/inventoryScript.py'])
 
 def exitProgram():
     print("Exiting. have fun at the lake!")
