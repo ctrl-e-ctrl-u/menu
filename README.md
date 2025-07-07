@@ -30,8 +30,18 @@ To add in more scripts simply add the additonal option to optionsMenu, example
 optionsMenu = {
     "1": ("Backup Device", backupScript),
     "2": ("Pull Inventory inventoryScript", inventoryScript),
-    "3": ("Pull Inventory inventoryScript", inventoryScript),
-    "4": ("Pull Inventory inventoryScript", inventoryScript),
+    "3": ("Script3 thirdScript", thirdScript),
+    "4": ("Script4 fourthScript", fourthScript),
     "5": ("Exit", exitProgram),
 }
+
+Then add in additional function to add in your addtional scripts, example
+
+def thirdScript():
+    # subprocess.run(['python3', 'home/Network-team/scripts/thirdScript.py'])
+
+def fourthScript():
+    # subprocess.run(['python3', 'home/Network-team/scripts/fourthScript.py'])
+
+
 
